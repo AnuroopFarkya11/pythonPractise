@@ -7,6 +7,12 @@ class ClassWithDefaultConstructor:
 
 
 
+class ClassWithParamaterizedCOnstructor:
+    # Para constructor 
+    def __init__(self,data):
+        print("Hii I am para constructor " + data)
 
-
+class ClassWithPass:
+    pass
 obj1 = ClassWithDefaultConstructor()
+obj2 = ClassWithParamaterizedCOnstructor("Hanumanji")
