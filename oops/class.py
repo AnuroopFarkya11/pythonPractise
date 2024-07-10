@@ -1,11 +1,12 @@
-class MyClass:
+class ClassWithDefaultConstructor:
+
+    # Default Constructor
     def __init__(self):
-        print("My class default constructor initiated")
-    
-    def __init__(self, data):
-        print("My class with data ",data)
+        print("Hii I am default constructor")
 
 
 
 
-obj = MyClass('Ram')
+
+
+obj1 = ClassWithDefaultConstructor()
